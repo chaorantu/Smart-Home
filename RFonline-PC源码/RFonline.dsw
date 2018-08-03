@@ -1,0 +1,35 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "RFonline"=".\RFonline.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+    {0A362353-2E5E-11D3-85BF-00105AC8B715}
+    {C5412DF6-2E2F-11D3-85BF-00105AC8B715}
+    {1791C036-8981-492A-BD28-F2331BC9B7C7}
+    {E5F63B8D-D2A6-11D3-85C2-00A0CC3A58C9}
+    {0A362345-2E5E-11D3-85BF-00105AC8B715}
+    {C5412E14-2E2F-11D3-85BF-00105AC8B715}
+}}}
+
+###############################################################################
+

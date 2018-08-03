@@ -1,0 +1,57 @@
+﻿Build started 2016/6/9 19:38:17.
+     1>Project "E:\TCR\第6章 实践项目\RFonline-上位机\RFonline-PC源码\RFonline.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\RFonline.pch" /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt RFonline.cpp SerialPort.cpp font.cpp iledbarx.cpp iledrectanglex.cpp iledroundx.cpp iplotannotationx.cpp iplotaxisx.cpp iplotchannelx.cpp iplotdatacursorx.cpp iplotdataviewx.cpp iplotlabelx.cpp iplotlegendx.cpp iplotlimitx.cpp iplottablecolumnx.cpp iplottablex.cpp iplottoolbarx.cpp iplotx.cpp iswitchrockerx.cpp ithermometerx.cpp picture.cpp
+         正在跳过...(未检测到相关更改)
+         picture.cpp
+         ithermometerx.cpp
+         iswitchrockerx.cpp
+         iplotx.cpp
+         iplottoolbarx.cpp
+         iplottablex.cpp
+         iplottablecolumnx.cpp
+         iplotlimitx.cpp
+         iplotlegendx.cpp
+         iplotlabelx.cpp
+         iplotdataviewx.cpp
+         iplotdatacursorx.cpp
+         iplotchannelx.cpp
+         iplotaxisx.cpp
+         iplotannotationx.cpp
+         iledroundx.cpp
+         iledrectanglex.cpp
+         iledbarx.cpp
+         font.cpp
+         SerialPort.cpp
+         RFonline.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\RFonline.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug\RFonline.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\RFonline.lib" /MACHINE:X86 /SAFESEH .\Debug\RFonline.res
+         .\Debug\font.obj
+         .\Debug\iledbarx.obj
+         .\Debug\iledrectanglex.obj
+         .\Debug\iledroundx.obj
+         .\Debug\iplotannotationx.obj
+         .\Debug\iplotaxisx.obj
+         .\Debug\iplotchannelx.obj
+         .\Debug\iplotdatacursorx.obj
+         .\Debug\iplotdataviewx.obj
+         .\Debug\iplotlabelx.obj
+         .\Debug\iplotlegendx.obj
+         .\Debug\iplotlimitx.obj
+         .\Debug\iplottablecolumnx.obj
+         .\Debug\iplottablex.obj
+         .\Debug\iplottoolbarx.obj
+         .\Debug\iplotx.obj
+         .\Debug\iswitchrockerx.obj
+         .\Debug\ithermometerx.obj
+         .\Debug\picture.obj
+         .\Debug\RFonline.obj
+         .\Debug\RFonlineDlg.obj
+         .\Debug\SerialPort.obj
+         .\Debug\StdAfx.obj
+         RFonline.vcxproj -> E:\TCR\第6章 实践项目\RFonline-上位机\RFonline-PC源码\.\Debug\RFonline.exe
+     1>Done Building Project "E:\TCR\第6章 实践项目\RFonline-上位机\RFonline-PC源码\RFonline.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.84

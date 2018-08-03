@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2b59e7c1-de22-4204-8bb6-55009ac530bd}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{adc4b39c-ef5b-4e57-8e2e-1daa2e0cb7c5}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4e13b5b0-48cc-4eb1-b13d-b13232d8b206}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iledbarx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iledrectanglex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iledroundx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotannotationx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotaxisx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotchannelx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotdatacursorx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotdataviewx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotlabelx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotlegendx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotlimitx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iplottablecolumnx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iplottablex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iplottoolbarx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iplotx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iswitchrockerx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ithermometerx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="picture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RFonline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RFonlineDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RFonline.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iledbarx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iledrectanglex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iledroundx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotannotationx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotaxisx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotchannelx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotdatacursorx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotdataviewx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotlabelx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotlegendx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotlimitx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iplottablecolumnx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iplottablex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iplottoolbarx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iplotx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iswitchrockerx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ithermometerx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="picture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RFonline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RFonlineDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\close.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\gas_abnormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\gas_normal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\led1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\led2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\led_100.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\led_off.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\led_on.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\led_on.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\led_on1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\led_on_48.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\open.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\RFonline.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\RFonline.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

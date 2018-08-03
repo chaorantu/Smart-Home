@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="6"
+    android:background="@drawable/bk2"
+    android:orientation="vertical" >
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <!-- node 1 内层的垂直布局 -->
+        <LinearLayout
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 三个文本栏的布局设置 -->
+
+            <TextView
+                android:id="@+id/node_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/temperature1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/humidity1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFFFF"
+                android:textSize="30sp" />
+            
+                    <TextView
+                android:id="@+id/temperature2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFFFFFF"
+                android:textSize="30sp" />
+                    
+                     <TextView
+                android:id="@+id/humidity2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:textColor="#FFFFFFFF"
+                android:textSize="30sp" />
+        </LinearLayout>
+        <!-- 图片布局设置 -->
+<LinearLayout
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        <ImageButton
+            android:id="@+id/image_lamp1"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/desc2" />
+
+        <ImageView
+            android:id="@+id/image_gas1"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/desc1" />
+        
+        <ImageView
+            android:id="@+id/image_security"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/desc1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+
+        <!-- node 2 内层的垂直布局 -->
+      
+        <!-- 图片布局设置 -->
+
+      
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical" >
+
+      <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_beep_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/beep_on" />
+
+        <Button
+            android:id="@+id/btn_beep_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/beep_off" />
+       
+        <Button
+            android:id="@+id/btn_cn_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cn_on" />
+        <Button
+            android:id="@+id/btn_cn_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cn_off" />
+    </LinearLayout>
+    
+        <TextView
+            android:id="@+id/Tips"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical|left"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+    
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_network"
+            android:layout_width="90dp"
+            android:layout_height="55dp"
+            android:background="@drawable/bottom_net_on" />
+
+        <Button
+            android:id="@+id/btn_lamp_all"
+            android:layout_width="90dp"
+            android:layout_height="55dp"
+            android:background="@drawable/bottom_lamp_on" />
+
+        <!-- 打开视频 -->
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="90dp"
+            android:layout_height="55dp"
+            android:background="@drawable/bottom_exit_on" />
+    </TableRow>
+
+</LinearLayout>

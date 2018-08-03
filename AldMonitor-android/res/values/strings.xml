@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智能家居管理系统</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_hint">connecting......;</string>
+    <string name="start_wifi">请打开WiFi</string>
+    <string name="connect_failed">自动连接失败，请手动连接</string>
+    <string name="take_picture">拍照</string>
+    <string name="record_video">录像</string>
+    <string name="pictures">照片</string>
+    <string name="fullscreen">全屏</string>
+    <string name="standard">标准</string>
+    <string name="setting">设置</string>
+    <string name="exit_title">MJPEG视频流</string>
+    <string name="exit_hint">确定要退出？</string>
+    <string name="exit_btn_yes">是</string>
+    <string name="exit_btn_no">否</string>
+    <string name="ip">IP:</string>
+    <string name="port">Port:</string>
+    <string name="ip_hint">请输入IP地址</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">智能家居管理系统</string>
+    <string name="node_title1">终端1</string>
+    <string name="init_temp">温度：0℃</string>
+    <string name="init_humi">湿度：0%</string>
+    <string name="init_bri">亮度：0</string>
+    <string name="init_security">无人闯入</string>
+    <string name="tips">提示信息：关闭所有灯</string>
+    <string name="network">网络设置</string>
+    <string name="lamp_off">关闭所有灯</string>
+    <string name="lamp_on">打开所有灯</string>
+    <string name="scene">情景模式</string>
+    <string name="init_tips">提示:请先打开WiFi或GPRS再连接网络</string>
+    <string name="desc1">image_desc</string>
+    <string name="desc2">image_desc</string>
+    <string name="desc3">image_desc</string>
+    <string name="desc4">image_desc</string>
+    <string name="desc5">image_desc</string>
+    <string name="desc6">image_desc</string>
+    <string name="desc7">image_desc</string>
+    <string name="desc8">image_desc</string>
+    <string name="port_hint">端口1000到65535</string>
+    <string name="connect">链接</string>
+    
+
+</resources>

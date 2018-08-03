@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RFonline - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TCR\AppData\Local\Temp\RSP8C6B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/RFonline.pdb" /debug /machine:I386 /out:"Debug/RFonline.exe" /pdbtype:sept 
+".\Debug\font.obj"
+".\Debug\iledbarx.obj"
+".\Debug\iledrectanglex.obj"
+".\Debug\iledroundx.obj"
+".\Debug\iplotannotationx.obj"
+".\Debug\iplotaxisx.obj"
+".\Debug\iplotchannelx.obj"
+".\Debug\iplotdatacursorx.obj"
+".\Debug\iplotdataviewx.obj"
+".\Debug\iplotlabelx.obj"
+".\Debug\iplotlegendx.obj"
+".\Debug\iplotlimitx.obj"
+".\Debug\iplottablecolumnx.obj"
+".\Debug\iplottablex.obj"
+".\Debug\iplottoolbarx.obj"
+".\Debug\iplotx.obj"
+".\Debug\iswitchrockerx.obj"
+".\Debug\ithermometerx.obj"
+".\Debug\picture.obj"
+".\Debug\RFonline.obj"
+".\Debug\RFonlineDlg.obj"
+".\Debug\SerialPort.obj"
+".\Debug\StdAfx.obj"
+".\Debug\RFonline.res"
+]
+Creating command line "link.exe @C:\Users\TCR\AppData\Local\Temp\RSP8C6B.tmp"
+<h3>Output Window</h3>
+Linking...
+LINK : warning LNK4076: invalid incremental status file "Debug/RFonline.ilk"; linking nonincrementally
+nafxcwd.lib(except.obj) : warning LNK4078: multiple ".CRT" sections found with different attributes (C0300040)
+LINK : fatal error LNK1104: cannot open file "uxtheme.lib"
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+RFonline.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
